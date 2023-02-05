@@ -1,0 +1,49 @@
+ul {
+    background-color: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    background: #CCCCCC;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section {
+    margin-left: 20px;
+}
+
+
+section h1{
+    size: 28px;
+}
+section header p {
+    size: 24px;
+    font-style: italic
+}
+
+footer {
+    background-color: #444;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
