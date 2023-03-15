@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    display: flex;
+    width: calc(25%);
+    height: calc(50%);
+    gap: 15px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+img{
+    border: 5px solid black;
+    object-fit: contain;
+}
+
+/* body,
+ul,
+li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+ul {
+  justify-content: space-evenly;
+}
+
+img {
+  border: solid 6px black;
+  padding: 2rem 1.5rem;
+  object-fit: contain;
+} */

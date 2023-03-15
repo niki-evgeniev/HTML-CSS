@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+
+
+
+    .container .navbar {
+        justify-content: center;
+    }
+
+    .container-fluid img {
+        display: none;
+    }
+
+    .container-fluid .container h1 {
+        margin-top: 120px;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .container-fluid .hero-btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-fluid .hero-btns .hero-btns a {
+        align-items: center;
+    }
+
+
+    #about-us .row .hero-btns a:first-child {
+        text-align: center;
+
+    }
+}

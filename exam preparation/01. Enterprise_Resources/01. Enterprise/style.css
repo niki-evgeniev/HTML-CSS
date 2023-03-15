@@ -1,0 +1,64 @@
+/* 
+button -  #786eff
+asena - #273240
+text - #7f8991
+
+
+*/
+body {}
+
+.container {
+    background-color: #f6f8f9;
+    border-radius: 8px;
+    font-family: Helvetica, sans-serif;
+    background-color: silver;
+    max-width: 900px;
+    padding: 36px 32px;
+    position: relative;
+    margin: 32px auto;
+
+}
+
+.container .sec {
+    width: 40%;
+}
+
+.container .img .img-hand {
+    background-size: cover;
+    max-width: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.container .title {
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    color: #273240;
+    /* font-weight: 300; */
+
+}
+
+.container h1 {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #273240;
+    margin-bottom: 14px;
+}
+
+.container .text {
+    color:#7f8991 ;
+    margin-bottom: 16px;
+}
+
+.container .left-btn {
+    color: white;
+    border-radius: 4px;
+    background-color:#786eff ;
+    border-color: #786eff;
+    padding: 8px 18px;
+    
+}

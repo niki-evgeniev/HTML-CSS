@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 4px 8px;
+    margin: 6px 20px;
+}
+.menu {
+    list-style: none;
+    padding-right: 10px;
+    color: rgb(0, 153, 0);
+}
+
+main {
+    margin: 6px 20px;
+}
+
+h1 {
+    width: 28%;
+}
+
+nav {
+    display: flex;
+    width: 70%
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 80%;
+}
+
+body header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+header nav ul li a {
+    color: rgb(0, 153, 0);
+}

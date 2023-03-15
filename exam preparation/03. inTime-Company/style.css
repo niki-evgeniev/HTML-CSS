@@ -1,0 +1,219 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+body {
+    max-width: 1900px;
+    margin: 12px 24px;
+
+    font-family: Helvetica, sans-serif;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #454545;
+}
+
+#head .navigation .title {
+    margin-left: 24px;
+}
+
+#head .navigation .title span {
+    color: #21a2b5;
+}
+
+
+#head .navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#head .navigation {
+    max-width: 82%;
+}
+
+#head .navigation .navi ul {
+    display: flex;
+    gap: 15px;
+    margin-top: 8px;
+}
+
+#head .img {
+    width: 1800px;
+    height: 600px;
+    position: relative;
+}
+
+#head .img .img-h {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 16px;
+}
+
+#head .img .promote {
+    position: absolute;
+}
+
+#head .promote {
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    padding: 20px 20px;
+    opacity: 0.7;
+}
+
+#head .promote p {
+    font-size: 26px;
+}
+
+#head .promote .btn-img {
+    background-color: aqua;
+    padding: 4px 32px;
+    border-radius: 20px;
+    border-color: #21a2b5;
+    color: white;
+}
+
+#main .welcome {
+    max-width: 80%;
+    text-align: center;
+}
+
+#main h1 {
+    font-weight: normal;
+    margin-top: 24px;
+}
+
+#main p {
+    letter-spacing: 0px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+#main .vertical {
+    position: absolute;
+    left: 38%;
+    height: 2px;
+    width: 88px;
+    background-color: #21a2b5;
+    /* margin-left: 320px; */
+
+}
+
+#main .btn-more {
+    padding: 8px 24px;
+    border-radius: 20px;
+    background-color: black;
+    border-color: black;
+    color: whitesmoke;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#main .services .cards {
+    display: flex;
+    max-width: 60%;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#main .services .cards {
+    max-width: 83%;
+    background-color: #eef0f1;
+    color: black;
+}
+
+#main .services .card {
+    width: 400px;
+    background-color: white;
+    margin: 12px 12px;
+}
+
+#main .services .card .tittle {
+    text-align: center;
+    font-size: 18px;
+}
+
+#main .services .card .ser-text {
+    text-align: center;
+    padding: 2px 12px;
+    font-size: 14px;
+}
+
+#main .services .card .ser-btn {
+   text-align: center;
+   align-items: center;
+   background-color: #454545;
+   border-color:#454545 ;
+   color: white;
+   border-radius: 4px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#main .services .cards {
+    text-align: center;
+   padding-top: 50px;
+}
+
+#sub {
+    background-color: #393f43;
+    max-width: 83%;
+    text-align: center;
+    color: white;
+    
+}
+
+#sub .information h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 16px;
+}
+#sub .information .vertical {
+    color: #21a2b5;
+}
+
+#sub  .form .btn-sub {
+    background-color: #21a2b5;
+    border-color: #21a2b5 ;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 8px;
+    margin-bottom: 48px;
+    
+}
+#sub  .form .btn-sub a{
+    text-decoration: none;
+    color: white;
+}
+
+#sub  .form  .email {
+    width: 300px;
+}
+
+#about {
+    width: 83%;
+    background-color: #222629;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    color: white;
+}
+
+#about div {
+    width: 10%;
+}
+ #about .quick {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+ }

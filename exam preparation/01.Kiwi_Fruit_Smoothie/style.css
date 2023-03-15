@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,800;0,900;1,700;1,800;1,900&display=swap');
+
+
+
+main {
+    background-image: url(image/image1.png);
+    font-family: 'PT Serif', serif;
+    max-width: 900px;
+    max-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 20px;
+}
+
+#main .text {
+    text-align: center;
+    width: 50%;
+    position: relative;
+}
+
+#main h1 {
+ font-size: 24px;
+ border-bottom: 2px dotted black;
+ border-color: green;
+
+}
+
+#main .left {
+    position: absolute;
+    left: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+main .right {
+    position: absolute;
+    right: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#main .drinks{
+    margin-top: 50px;
+    text-align: left;
+}
+#main .opisanie {
+    margin-top: 20px;
+}
+
+#main .table {
+    text-align: center;
+    width: 350px;
+    border: 2px solid green;
+    
+}
+#main .table th{
+    border: 2px solid green;
+    align-items: center;
+}
+
+#main .table td {
+    border: 2px solid green;
+    align-items: center;
+}
+
+#main .img {
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    object-fit: none;
+}
+#main .img .kiwi {
+    width: 100%;
+    height: 100%;
+}
+
+#main .drinks span {
+color: green;
+font-weight: bolder;
+}

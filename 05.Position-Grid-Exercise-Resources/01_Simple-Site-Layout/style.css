@@ -1,0 +1,44 @@
+body {
+   display: grid;
+   grid-template-columns: 2;
+   grid-template-areas: 
+   "header header"
+   "aside main"
+   "footer footer"; 
+   grid-template-columns: 100px auto;
+   gap: 10px;
+}
+
+header, aside, main, footer{
+    border-radius: 3px;
+    background-color: rgb(181, 215, 255);
+}
+
+header{
+    grid-area: header;
+    vertical-align: middle;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}

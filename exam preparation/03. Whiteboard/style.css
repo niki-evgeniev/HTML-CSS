@@ -1,0 +1,55 @@
+/* header {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    position: relative;
+}
+header div img {
+    width: 950px;
+    height: 400px;
+    background-color: black;
+    object-fit: cover;
+    object-position: center;
+   
+}
+
+.text {
+    position: absolute;
+    top :20%;
+} */
+
+#head {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    position: relative;
+
+}
+
+#head .img {
+    max-width: 950px;
+    max-height: 400px;
+    background-color: black;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+#head .img-bg {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    /* max-width: 950px;
+    max-height: 400px; */
+    background-color: black;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+#head .text {
+    position: absolute;
+    top: 20%;
+}

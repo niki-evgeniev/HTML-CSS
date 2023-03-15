@@ -1,0 +1,40 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+    box-sizing: border-box;
+}
+
+ul{
+    border: 1px solid black;
+}
+
+ul,
+li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.icon a {
+    background-color: silver;
+    padding: 8px;
+    border-radius: 50%;
+    color: black;
+}
+
+ul, li:nth-child(1) a:hover{
+    color: rgb(76, 76, 252);
+}
+
+li:nth-child(2) a:hover{
+    color: rgb(102, 102, 255);
+}
+li:nth-child(3) a:hover{
+    color: rgba(241, 71, 71, 0.801);
+}
+li:nth-child(4) a:hover{
+    color: rgba(79, 126, 255, 0.801);
+}
+li:nth-child(5) a:hover{
+    color: rgba(213, 222, 247, 0.801);
+}

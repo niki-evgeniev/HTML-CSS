@@ -1,0 +1,16 @@
+img{
+    /* position: relative; */
+    /* width: 300px;
+    height: 300px; */
+}
+
+h1{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+
+}
+
